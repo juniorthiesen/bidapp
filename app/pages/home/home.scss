@@ -1,0 +1,87 @@
+.page1 {
+
+  .button-fab {
+  position: absolute;
+  overflow: hidden;
+  width: 56px;
+  min-width: 0;
+  height: 56px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 56px;
+  z-index: 9999 !important;
+  vertical-align: middle;
+  background-clip: padding-box; }
+  .button-fab ion-icon {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 2.8rem; }
+
+[fab-center] {
+  left: 50%;
+  margin-left: -28px; }
+
+[fab-top] {
+  top: 16px; }
+
+  [fab-middle] {
+
+     }
+
+[fab-right] {
+  right: 30px;
+  margin-top: -40px;
+
+  }
+
+[fab-bottom] {
+  bottom: 16px; }
+
+[fab-left] {
+  left: 16px; }
+
+[fab-fixed] {
+  position: fixed; }
+
+  background-color:#ecf0f1;
+
+  .label {
+    border-radius: 10px;
+    padding: 5px 12px;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+
+  .label.label-warning {
+    background-color: #fbc02d;
+  }
+
+  .label.label-success {
+    background-color: #4caf50;
+  }
+
+  .label.label-info {
+    background-color: #03a9f4;
+  }
+
+  .label.label-danger {
+      background-color: #f44336;
+  }
+
+  h4 {
+      font-size: 2.98rem;
+      line-height: 110%;
+      margin: 6px 0px;
+      color: #2c3e50;
+
+  }
+
+  p{
+        color: #666;
+        font-size: 0.9em !important;
+  }
+
+
+}

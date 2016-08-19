@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+    <button  (click)="dismiss()">
+      <ion-icon name="arrow-round-back"></ion-icon>
+    </button>
+  </ion-buttons>
+    <ion-title>Leilão em Andamento</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+
+  <ion-card >
+    <ion-slides [options]="mySlideOptions">
+    <ion-slide>
+      <img src="http://www.socarrao.com.br/revenda/197253/2773474/2773474G_21378200_1471542743_17510.jpg"/>
+    </ion-slide>
+    <ion-slide>
+      <img src="http://www.socarrao.com.br/revenda/197253/2773474/2773474G_51656500_1471542744_1000.jpg"/>
+    </ion-slide>
+    <ion-slide>
+      <img src="http://www.socarrao.com.br/revenda/197253/2773474/2773474G_73891500_1471542745_81900.jpg"/>
+    </ion-slide>
+  </ion-slides>
+    <ion-card-content>
+
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

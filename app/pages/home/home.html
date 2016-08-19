@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Leilões</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content  class="page1">
+  <ion-card>
+    <ion-slides [options]="mySlideOptions">
+    <ion-slide>
+      <img src="http://www.socarrao.com.br/revenda/197253/2773474/2773474G_21378200_1471542743_17510.jpg"/>
+    </ion-slide>
+    <ion-slide>
+      <img src="http://www.socarrao.com.br/revenda/197253/2773474/2773474G_51656500_1471542744_1000.jpg"/>
+    </ion-slide>
+    <ion-slide>
+      <img src="http://www.socarrao.com.br/revenda/197253/2773474/2773474G_73891500_1471542745_81900.jpg"/>
+    </ion-slide>
+  </ion-slides>
+    <ion-card-content>
+      <button fab  fab-right (click)="openModal()">
+        <ion-icon name="pricetag" is-active="false"></ion-icon>
+      </button>
+      <ion-card-title>
+        BMW X6 XDRIVE 35I
+      </ion-card-title>
+      <p>Preço</p>
+      <h4>R$189.000,00</h4>
+      <p>
+        Ultimo Lance a 2h
+      </p>
+      <span class="label label-warning">40.000 Km</span> <span class="label label-info">Novo</span>
+      <span class="label label-success">Check OK</span>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
