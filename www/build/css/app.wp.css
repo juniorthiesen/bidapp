@@ -9185,9 +9185,9 @@ body {
   font-size: 1.4rem;
   background-color: #fff; }
 
-.page1 {
+.home {
   background-color: #ecf0f1; }
-  .page1 .button-fab {
+  .home .button-fab {
     position: absolute;
     overflow: hidden;
     width: 56px;
@@ -9199,44 +9199,44 @@ body {
     z-index: 9999 !important;
     vertical-align: middle;
     background-clip: padding-box; }
-  .page1 .button-fab ion-icon {
+  .home .button-fab ion-icon {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     font-size: 2.8rem; }
-  .page1 [fab-center] {
+  .home [fab-center] {
     left: 50%;
     margin-left: -28px; }
-  .page1 [fab-top] {
+  .home [fab-top] {
     top: 16px; }
-  .page1 [fab-right] {
+  .home [fab-right] {
     right: 30px;
     margin-top: -40px; }
-  .page1 [fab-bottom] {
+  .home [fab-bottom] {
     bottom: 16px; }
-  .page1 [fab-left] {
+  .home [fab-left] {
     left: 16px; }
-  .page1 [fab-fixed] {
+  .home [fab-fixed] {
     position: fixed; }
-  .page1 .label {
+  .home .label {
     border-radius: 10px;
     padding: 5px 12px;
     text-transform: uppercase;
     font-size: 10px; }
-  .page1 .label.label-warning {
+  .home .label.label-warning {
     background-color: #fbc02d; }
-  .page1 .label.label-success {
+  .home .label.label-success {
     background-color: #4caf50; }
-  .page1 .label.label-info {
+  .home .label.label-info {
     background-color: #03a9f4; }
-  .page1 .label.label-danger {
+  .home .label.label-danger {
     background-color: #f44336; }
-  .page1 h4 {
+  .home h4 {
     font-size: 2.98rem;
     line-height: 110%;
     margin: 6px 0px;
     color: #2c3e50; }
-  .page1 p {
+  .home p {
     color: #666;
     font-size: 0.9em !important; }

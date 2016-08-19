@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar danger>
     <ion-buttons start>
     <button  (click)="dismiss()">
       <ion-icon name="arrow-round-back"></ion-icon>
@@ -25,6 +25,11 @@
   </ion-slides>
     <ion-card-content>
 
+      <ion-item>
+            <ion-label></ion-label>
+            <ion-range min="165000" dualKnobs="true" pin="true" dark>
+            </ion-range>
+        </ion-item>
 
     </ion-card-content>
   </ion-card>
